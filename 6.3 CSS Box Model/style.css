@@ -12,8 +12,7 @@ width: 200px;
 .div2{
     background-color: gold;
     border-width: 20px 10px;
-    border-color: black;
-    border-style: solid;
+    border: solid black;
     margin-left: 260px;
 }
 
