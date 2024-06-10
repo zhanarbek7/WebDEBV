@@ -4,19 +4,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      .picture1{
-        height: 300px;
-        width: 450px;
-        float: left;
+      .flex-container {
+        display: flex;
       }
-      p{
-        border: 1px solid black;
-        margin-left: 5px; /* Move the text and border to the right */
+
+      .card{
+        background: blue;
+        border: 30px solid white;
+        height: 100px;
+        flex: 1;
+      }
+
+      .first {
+        flex: 1;
+      }
+
+      .second {
+        flex: 1;
       }
     </style>
   </head>
   <body>
-   <img class="picture1" src="https://images.unsplash.com/photo-1520209759809-a9bcb6cb3241?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1nfGVufDB8fDB8fHww" alt="Alternative">
-  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur est repellendus error, a inventore quidem iure? Ad officia blanditiis obcaecati voluptate, cumque, dolorum minus pariatur ratione aut assumenda iusto corporis!</p>
+    <div class="flex-container">
+      <div class="first card"></div>
+      <div class="second card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+    </div>
+
+    <div class="some"></div>
   </body>
 </html>
