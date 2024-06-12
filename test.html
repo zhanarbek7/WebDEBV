@@ -4,34 +4,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      .flex-container {
-        display: flex;
+
+      table{
+        width: 100%;
+      }
+      td{
+        border: 2px solid black;
+        padding: 10px;
+        background-color: aquamarine;
       }
 
-      .card{
-        background: blue;
-        border: 30px solid white;
-        height: 100px;
-        flex: 1;
+      .col1{
+        width: 25%;
       }
 
-      .first {
-        flex: 1;
+      .col2{
+        width: 25%;
       }
 
-      .second {
-        flex: 1;
+      .col3{
+        width: 25%;
       }
     </style>
   </head>
   <body>
-    <div class="flex-container">
-      <div class="first card"></div>
-      <div class="second card"></div>
-      <div class="card"></div>
-      <div class="card"></div>
-    </div>
-
-    <div class="some"></div>
+    <table>
+      <tr class = "row">
+        <td class="col1"> Lorem1</td>
+        <td class="col2"> Lorem2</td>
+        <td class="col3"> Lorem3</td>
+      </tr>
+    </table>
   </body>
 </html>
