@@ -1,0 +1,2 @@
+Hello from NodeJS!
+JavaScript code was written by Zhanarbek!
